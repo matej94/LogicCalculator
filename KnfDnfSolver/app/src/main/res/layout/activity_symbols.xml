@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_symbols"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.matej.knfdnfsolver.SymbolsActivity">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/symbolstv"
+    android:text="Something about symbols!"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contv"
+        android:text="Conjuction:\u0026,\u0026\u0026 "
+        android:layout_below="@+id/symbolstv" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/distv"
+        android:text="Disjunction:\u007C,\u007C\u007C "
+        android:layout_below="@+id/contv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/impltv"
+        android:text="Implication:\u002D\u002D\u003E "
+        android:layout_below="@+id/distv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/equtv"
+        android:text="Equivalence:\u003C\u002D\u003E "
+        android:layout_below="@+id/impltv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/negtv"
+        android:text="Negation:\u007E "
+        android:layout_below="@+id/equtv"/>
+
+</RelativeLayout>
