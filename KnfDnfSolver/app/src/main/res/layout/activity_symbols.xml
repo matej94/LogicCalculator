@@ -14,36 +14,36 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/symbolstv"
-    android:text="Something about symbols!"/>
+    android:text="List of symbols and their meaning:"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/contv"
-        android:text="Conjuction:\u0026,\u0026\u0026 "
+        android:text="Conjunction:\u02C4"
         android:layout_below="@+id/symbolstv" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/distv"
-        android:text="Disjunction:\u007C,\u007C\u007C "
+        android:text="Disjunction:\u02C5 "
         android:layout_below="@+id/contv"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/impltv"
-        android:text="Implication:\u002D\u002D\u003E "
+        android:text="Implication:\u27F6 "
         android:layout_below="@+id/distv"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/equtv"
-        android:text="Equivalence:\u003C\u002D\u003E "
+        android:text="Equivalence:\u27F7 "
         android:layout_below="@+id/impltv"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/negtv"
-        android:text="Negation:\u007E "
+        android:text="Negation:\u00AC "
         android:layout_below="@+id/equtv"/>
 
 </RelativeLayout>

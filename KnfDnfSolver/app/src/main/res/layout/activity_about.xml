@@ -13,6 +13,7 @@ tools:context="com.example.matej.knfdnfsolver.AboutActivity">
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:textSize="50px"
     android:id="@+id/abouttv"
-    android:text="Something about app!"/>
+    android:text="This is an application for solving conjunctive and disjunctive normal form was developed. An application is based on math expression input and after that it generates a truth table and calculates conjunctive and disjunctive normal form.  "/>
 </RelativeLayout>
